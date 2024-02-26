@@ -19,7 +19,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} bg-background dark:bg-background-dark text-text-primary dark:text-text-primary-dark`}
+				className={`${inter.className} bg-background flex flex-col items-center dark:bg-background-dark text-text-primary dark:text-text-primary-dark`}
 			>
 				<Header />
 				{children}
