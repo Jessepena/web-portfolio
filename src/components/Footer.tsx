@@ -1,9 +1,10 @@
+import Link from "next/link";
 import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
 	return (
 		<div className="flex justify-center items-center gap-3 m-4">
-			<a
+			<Link
 				target="_blank"
 				href="https://www.linkedin.com/in/jesse-pena-b95b631b7/"
 			>
@@ -11,20 +12,20 @@ const Footer = () => {
 					size={20}
 					className="cursor-pointer fill-background-dark dark:fill-background hover:fill-primary"
 				/>
-			</a>
-			<a target="_blank" href="https://www.instagram.com/_jessepena_/">
+			</Link>
+			<Link target="_blank" href="https://www.instagram.com/_jessepena_/">
 				<BsInstagram
 					size={20}
 					className="cursor-pointer fill-background-dark dark:fill-background hover:fill-primary"
 				/>
-			</a>
+			</Link>
 
-			<a target="_blank" href="https://github.com/jessepena">
+			<Link target="_blank" href="https://github.com/jessepena">
 				<BsGithub
 					size={20}
 					className="cursor-pointer fill-background-dark dark:fill-background hover:fill-primary"
 				/>
-			</a>
+			</Link>
 		</div>
 	);
 };

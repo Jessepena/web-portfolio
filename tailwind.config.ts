@@ -9,6 +9,13 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["ui-sans-serif", "system-ui"],
+				serif: ["ui-serif", "Georgia"],
+				mono: ["ui-monospace", "SFMono-Regular"],
+				heading: ["Source Code Pro", "sans-serif"],
+				body: ["Source Sans Pro", "sans-serif"],
+			},
 			screens: {
 				"2xs": "320px",
 				xs: "375px",
