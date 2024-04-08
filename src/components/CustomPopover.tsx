@@ -50,12 +50,14 @@ function CustomPopover() {
 							/>
 						</Popover.Button>
 					</div>
-					{links.map((link) => (
+					{links.map((link, index) => (
 						<Popover.Button
 							as={Link}
 							key={link.label}
 							href={link.route}
-							className="block px-4 py-3 hover:bg-gray-200 dark:hover:bg-gray-700"
+							className={`block px-4 py-3 hover:bg-gray-200 dark:hover:bg-gray-700 ${
+								index === links.length - 1 ? "rounded-b-lg" : ""
+							}`}
 						>
 							{link.label}
 						</Popover.Button>

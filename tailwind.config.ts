@@ -13,8 +13,9 @@ const config: Config = {
 				sans: ["ui-sans-serif", "system-ui"],
 				serif: ["ui-serif", "Georgia"],
 				mono: ["ui-monospace", "SFMono-Regular"],
-				heading: ["Source Code Pro", "sans-serif"],
-				body: ["Source Sans Pro", "sans-serif"],
+				heading: ['"Source Code Pro"', "sans-serif"],
+				body: ["'Source Sans 3'", "sans-serif"],
+				description: ['"Open Sans"', "sans-serif"],
 			},
 			screens: {
 				"2xs": "320px",
