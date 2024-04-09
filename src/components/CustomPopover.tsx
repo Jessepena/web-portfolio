@@ -4,25 +4,11 @@ import Link from "next/link";
 import { BsList } from "react-icons/bs";
 import { TfiClose } from "react-icons/tfi";
 import { Transition } from "@headlessui/react";
+import { navLinks } from "./Header";
 
 function CustomPopover() {
-	const links = [
-		{
-			label: "Home",
-			route: "/",
-		},
-		{
-			label: "About",
-			route: "/about",
-		},
-		{
-			label: "Projects",
-			route: "/projects",
-		},
-	];
-
 	return (
-		<Popover>
+		<Popover className="md:hidden">
 			<Popover.Overlay className="fixed top-0 left-0 w-screen h-screen z-10 bg-black opacity-60" />
 
 			<Popover.Button className="flex items-center focus:outline-none">
@@ -50,13 +36,13 @@ function CustomPopover() {
 							/>
 						</Popover.Button>
 					</div>
-					{links.map((link, index) => (
+					{navLinks.map((link, index) => (
 						<Popover.Button
 							as={Link}
 							key={link.label}
 							href={link.route}
 							className={`block px-4 py-3 hover:bg-gray-200 dark:hover:bg-gray-700 ${
-								index === links.length - 1 ? "rounded-b-lg" : ""
+								index === navLinks.length - 1 ? "rounded-b-lg" : ""
 							}`}
 						>
 							{link.label}

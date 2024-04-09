@@ -117,9 +117,9 @@ const badgesList = [
 
 const Hero = () => {
 	return (
-		<div className="flex flex-col gap-6 text-center">
-			<h1 className="text-4xl font-bold font-heading">Hello, I'm Jesse Pena</h1>
-			<p className="text-2xl font-bold text-text-secondary dark:text-text-secondary-dark">
+		<div className="flex flex-col gap-6 text-center px-4 lg:px-32 xl:px-72">
+			<h1 className="text-4xl font-bold">Hello, I'm Jesse Pena</h1>
+			<p className="text-2xl font-bold text-text-secondary dark:text-text-secondary-dark text-justify">
 				A Full Stack Engineer building scalable and user-friendly web
 				applications for various clients and industries. I use Next.js/React,
 				Tailwind CSS, and AWS to create interactive and engaging user
@@ -128,7 +128,12 @@ const Hero = () => {
 			</p>
 			<div className="flex justify-center items-center gap-2 flex-wrap">
 				{badgesList.map((badge) => (
-					<Badge key={badge.title} title={badge.title} imgUrl={badge.imgUrl} />
+					<Badge
+						key={badge.title}
+						title={badge.title}
+						imgUrl={badge.imgUrl}
+						animated
+					/>
 				))}
 			</div>
 		</div>

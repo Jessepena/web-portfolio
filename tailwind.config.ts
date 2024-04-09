@@ -40,6 +40,8 @@ const config: Config = {
 				"text-primary-dark": "#F7F3F3",
 				"text-secondary-dark": "#ABADB2",
 				yellow: "#FFD700",
+				link: "#2563EB",
+				date: "#6B7280",
 			},
 		},
 	},
