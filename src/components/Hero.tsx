@@ -118,7 +118,7 @@ const badgesList = [
 const Hero = () => {
 	return (
 		<div className="flex flex-col gap-6 text-center px-4 lg:px-32 xl:px-72">
-			<h1 className="text-4xl font-bold">Hello, I'm Jesse Pena</h1>
+			<h1 className="text-4xl font-bold">Hello, I&apos;m Jesse Pena</h1>
 			<p className="text-2xl font-bold text-text-secondary dark:text-text-secondary-dark text-justify">
 				A Full Stack Engineer building scalable and user-friendly web
 				applications for various clients and industries. I use Next.js/React,

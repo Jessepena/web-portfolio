@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Badge = ({
 	imgUrl,
@@ -21,14 +22,28 @@ const Badge = ({
 			className="flex justify-center items-center w-fit gap-2 rounded-md bg-secondary p-2 dark:bg-secondary-dark dark:text-text-primary-dark select-none"
 		>
 			{imgUrl && (
-				<img className="w-5 h-5" src={imgUrl} alt={title} title={title} />
+				<Image
+					width={20}
+					height={20}
+					className="w-5 h-5"
+					src={imgUrl}
+					alt={title}
+					title={title}
+				/>
 			)}
 			{title}
 		</motion.div>
 	) : (
 		<div className="flex justify-center items-center w-fit gap-2 rounded-md bg-secondary p-2 dark:bg-secondary-dark dark:text-text-primary-dark select-none">
 			{imgUrl && (
-				<img className="w-5 h-5" src={imgUrl} alt={title} title={title} />
+				<Image
+					width={20}
+					height={20}
+					className="w-5 h-5"
+					src={imgUrl}
+					alt={title}
+					title={title}
+				/>
 			)}
 			{title}
 		</div>

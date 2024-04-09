@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -66,7 +67,12 @@ const Experience = () => {
 							} flex justify-center md:justify-start p-5 items-center w-[96px] md:w-[85%] h-[96px] gap-2 md:w-[90%] rounded-md hover:bg-secondary dark:hover:bg-secondary-dark cursor-pointer`}
 							onClick={() => setSelectedExperience(experience)}
 						>
-							<img src={experience.imgUrl} width={36} alt={experience.name} />
+							<Image
+								width={36}
+								height={36}
+								src={experience.imgUrl}
+								alt={experience.name}
+							/>
 							<span className="hidden md:block">{experience.name}</span>
 						</div>
 					))}
