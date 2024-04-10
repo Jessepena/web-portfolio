@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className="font-body bg-background flex flex-col items-center text-text-primary dark:bg-background-dark dark:text-text-primary-dark">
+			<body className="font-body bg-background flex flex-col items-center text-text-primary dark:bg-background-dark dark:text-text-primary-dark transition-all duration-700">
 				<Header />
 				{children}
 				<Footer />

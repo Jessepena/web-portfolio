@@ -15,7 +15,7 @@ const CustomButton = () => {
 			className="hidden md:flex items-center rounded-md px-5 py-3 bg-primary text-background text-xs"
 		>
 			<Link className="flex items-center gap-2" href="/contact">
-				Contact me <FaArrowRight />
+				Contact me <FaArrowRight className="animate-bounce-right" />
 			</Link>
 		</motion.button>
 	);

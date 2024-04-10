@@ -43,6 +43,34 @@ const config: Config = {
 				link: "#2563EB",
 				date: "#6B7280",
 			},
+			animation: {
+				"bounce-right": "bounceRight 2s infinite",
+				underline: "underline 4s infinite",
+			},
+			keyframes: {
+				bounceRight: {
+					"0%, 100%": {
+						transform: "translateX(0)",
+					},
+					"50%": {
+						transform: "translateX(5px)",
+					},
+				},
+				underline: {
+					"0%": {
+						width: "1%",
+						opacity: "100%",
+					},
+					"50%": {
+						width: "100%",
+						opacity: "10%",
+					},
+					"100%": {
+						width: "1%",
+						opacity: "100%",
+					},
+				},
+			},
 		},
 	},
 	plugins: [],
