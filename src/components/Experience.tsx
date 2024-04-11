@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { experienceList } from "@/data/experiences";
+import CustomButton from "./CustomButton";
+import { FaArrowDown } from "react-icons/fa6";
 
 const Experience = () => {
 	const [selectedExperience, setSelectedExperience] = useState(
@@ -36,6 +38,17 @@ const Experience = () => {
 							<span className="hidden md:block">{experience.name}</span>
 						</div>
 					))}
+
+					<div className="w-[96px] md:w-[85%] h-[96px] md:w-[90%] p-5 rounded-md bg-secondary dark:bg-secondary-dark cursor-pointer ease-out duration-300 flex justify-center items-center mt-2">
+						<Link
+							href="https://drive.google.com/file/d/1nyMSSH2tD27vp1Lg9xajy4d6ETFav9l_/view"
+							target="_blank"
+							className="flex items-center gap-2 flex-col md:flex-row"
+						>
+							Download CV{" "}
+							<FaArrowDown size={18} className="animate-bounce mt-0.5" />
+						</Link>
+					</div>
 				</div>
 				<div className="flex flex-col gap-4 md:w-[50%]">
 					<span>
