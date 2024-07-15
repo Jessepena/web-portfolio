@@ -26,7 +26,7 @@ export const navLinks = [
 
 const Header = () => {
 	return (
-		<div className="h-[60px] fixed top-0 left-0 right-0 flex justify-center items-center gap-4 p-2 backdrop-blur-sm">
+		<div className="h-[60px] fixed top-0 left-0 right-0 flex justify-center items-center gap-4 p-2 bg-background dark:bg-background-dark">
 			<div className="flex items-center gap-4">
 				{/* <div className="hidden md:flex gap-4"> */}
 				<div className="flex gap-4">
