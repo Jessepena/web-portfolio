@@ -68,7 +68,7 @@ const ContactForm = () => {
 								name="firstName"
 								placeholder="Jesse"
 								required
-								className="h-10 mt-1 block w-full rounded-md shadow-sm px-3"
+								className="h-10 mt-1 block w-full rounded-md shadow-sm px-3 dark:text-text-primary"
 							/>
 						</div>
 						<div className="w-full md:w-1/2 px-2 mb-4">
@@ -79,7 +79,7 @@ const ContactForm = () => {
 								name="lastName"
 								placeholder="Pena"
 								required
-								className="h-10 mt-1 w-full rounded-md shadow-sm px-3"
+								className="h-10 mt-1 w-full rounded-md shadow-sm px-3 dark:text-text-primary"
 							/>
 						</div>
 					</div>
@@ -91,7 +91,7 @@ const ContactForm = () => {
 							name="phoneNumber"
 							placeholder="786-874-4148"
 							required
-							className="h-10 mt-1 w-full rounded-md shadow-sm px-3"
+							className="h-10 mt-1 w-full rounded-md shadow-sm px-3 dark:text-text-primary"
 						/>
 					</div>
 					<div className="mb-4">
@@ -102,7 +102,7 @@ const ContactForm = () => {
 							name="email"
 							required
 							placeholder="Jessepenadev@gmail.com"
-							className="h-10 mt-1 w-full rounded-md shadow-sm px-3"
+							className="h-10 mt-1 w-full rounded-md shadow-sm px-3 dark:text-text-primary"
 						/>
 					</div>
 					<div className="mb-6">
@@ -113,7 +113,7 @@ const ContactForm = () => {
 							rows={4}
 							placeholder="How can I work with you?"
 							required
-							className="mt-1 w-full rounded-md shadow-sm px-3 py-2"
+							className="mt-1 w-full rounded-md shadow-sm px-3 py-2 dark:text-text-primary"
 						></textarea>
 					</div>
 					<button
