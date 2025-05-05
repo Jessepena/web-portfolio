@@ -28,7 +28,7 @@ const Footer = () => {
 					/>
 				</Link>
 			</div>
-			<div>© 2024 Jesse Pena. All rights reserved.</div>
+			<div>© 2025 Jesse Pena. All rights reserved.</div>
 		</div>
 	);
 };

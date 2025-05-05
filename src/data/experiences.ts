@@ -26,7 +26,7 @@ export const experienceList: Experience[] = [
 		name: "Epam Systems",
 		position: "Software Engineer",
 		imgUrl:
-			"https://companieslogo.com/img/orig/EPAM_BIG-4adfe242.png?t=1660577598",
+			"https://media.licdn.com/dms/image/v2/D4E0BAQERhwCA4aBweA/company-logo_400_400/company-logo_400_400/0/1706845800358/epam_systems_logo?e=1749081600&v=beta&t=4NRaNh6N6enNpTuz-mFaw_vxwIuUlrygIiNozTNAVGw",
 		date: "November 2021 – May 2023",
 		responsibilities: [
 			"Played an instrumental role in the development and implementation of new and existing features for Walgreens, adhering closely to specified requirements and project timelines.",
