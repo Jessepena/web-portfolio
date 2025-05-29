@@ -12,7 +12,7 @@ export const experienceList: Experience[] = [
 		name: "Adtechnacity",
 		position: "Software Engineer",
 		imgUrl:
-			"https://media.licdn.com/dms/image/v2/C4D0BAQGF-m4DWXglTg/company-logo_200_200/company-logo_200_200/0/1630527635154/adtechnacity_logo?e=1747267200&v=beta&t=NXGvxVQOi65ELwfdpaQyGIwVAwpYaBCbA27LhOCgiq8",
+			"https://media.licdn.com/dms/image/v2/C4D0BAQGF-m4DWXglTg/company-logo_200_200/company-logo_200_200/0/1630527635154/adtechnacity_logo?e=2147483647&v=beta&t=l7y-rPtdxT3xgJuAj_xmzZjjA8-GFa3_2zVZMZvs4vo",
 		date: "May 2023 – Present",
 		responsibilities: [
 			"Implemented the frontend of the Firefox extension using React, ensuring smooth user interactions and seamless integration with the browser.",
